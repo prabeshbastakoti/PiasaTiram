@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisa Tiram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="Images/logo.png" type="image/x-icon">
+</head>
+<body class="bg-color-primary text-color-white tracking-wider" >
+    <header class="sticky top-0 z-50">
+        <nav class="container flex justify-between items-center"> 
+            <div class="w-20 py-1 text-color-secondary font-bold text-3xl ">
+                <a class="flex  items-center" href="#home">
+                <img src="Images/logo.png" alt="">
+                 <span class="text-color-white">Paisa</span>Tiram
+                </a>
+            </div>
+
+
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonials</a></li>
+                    <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="btn">Free Trial</button></li>
+                </ul>
+            </div>
+
+
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                 <i class="fa-solid fa-bars"> </i>
+            </div>
+
+            <div id="menu" class=" hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+              <ul class="h-full grid place-items-center py-20">
+                <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                <li><a id="hLink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonials</a></li>
+                <li><a id="hLink" href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="relative">
+            <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+            <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+            <div class="container py-20 ">
+                <div class="flex flex-col items-center z-20 md:flex-row" >
+                  <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10" >
+                     <h1 class="title mb-4"> Redefining Your Financial Journey!</h1>
+                     <p  class="leading-relaxed mb-10">Embark on a seamless financial adventure with PaisaTiram, where convenience meets innovation, transforming the way you manage and navigate your financial landscape.</p>
+                     <button class="btn">Download App</button>
+                  </div>
+
+                  <div class="md:w-1/2">
+                     <img src="./Images/hero.png" alt="hero">
+                  </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="features" class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:wd-1/2">
+                    <h4 class="font-bold text-color-secondary mb-5">Our Future</h4>
+                    <h1 class="title">Easy To Manage Your All Payments By Our App</h1>
+                </div>
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6 ">
+                            <i class="fa-solid fa-calendar-days text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Expense Tracking</h3>
+                        <p class="leading-relaxed">Effortlessly monitor and manage your expenses with PaisaTiram's intuitive expense tracking feature. Gain real-time insights into your spending patterns, categorize transactions, and stay in control of your financial goals. Simplify your budgeting and make informed decisions, ensuring a clear pathway to financial success.</p>
+                    </div>
+                    
+                    <div class=" bg-color-primary-dark border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6 ">
+                            <i class="fa-solid fa-chart-column text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+                        <p class="leading-relaxed">Experience financial clarity at a glance with PaisaTiram's Finance Snapshot feature. Instantly view your account balances, investments, and overall financial health in one comprehensive dashboard. Make informed decisions, track your net worth, and stay on top of your financial game with this powerful and convenient tool.</p>
+                    </div>
+
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6 ">
+                            <i class="fa-solid fa-phone text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Support 24x7</h3>
+                        <p class="leading-relaxed">Enjoy peace of mind with PaisaTiram's 24x7 support feature. Our dedicated support team is ready to assist you round the clock, ensuring that your banking experience is seamless and stress-free. Whether you have questions, concerns, or need assistance, we're here for you every step of the way. Your financial well-being is our priority, and our support is just a message or call away.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="saving-money" class="relative">
+            <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+            <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div>
+            <div class="container py-20 relative">
+                <div class=" flex flex-col items-center justify-between md:flex-row">
+                    <div class="mb-12 md:w-1/2">
+                        <img src="Images/hero2.png" alt="">
+                    </div>
+
+                    <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                        <h4 class="font-bold text-color-secondary mb-5">Saving Money</h4>
+                        <h1 class="title mb-4">Best financingApp To Manage Your Assets</h1>
+                        <p class="leading-relaxed mb-10">Elevate your financial management with PaisaTiram – the ultimate financing app designed to seamlessly oversee and optimize your assets. Take control, make informed decisions, and unlock the full potential of your wealth with the simplicity and power of Paisa<span class="text-color-secondary">Tiram</span></p>
+                        <button class="btn">Read More</button>
+                    </div>   
+                </div>
+            </div>
+
+        </section>
+
+        <section id="how-it-works" class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:wd-1/2">
+                    <h4 class="font-bold text-color-secondary mb-5">How It Works</h4>
+                    <h1 class="title">Grow Up Your Money Saving</h1>
+                </div>
+
+                <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+                    <div class="text-center cursor-pointer">
+                        <div class="relative bg-color-primary-dark inline-block py-3 px-6 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                            <p class="text-6xl" >1</p>
+                        </div>
+                         
+                        <h3 class="text-xl font-bold py-4">Install The App</h3>
+                        <p class="leading-relaxed">Install the App from google play store in android or from app store in ios </p>
+                    </div>
+                
+
+                
+                    <div class="text-center cursor-pointer">
+                        <div class="relative  inline-block py-3 px-6 rounded-lg cursor-pointer bg-color-secondary ">
+                            <p class="text-6xl">2</p>
+                        </div>
+                         
+                        <h3 class="text-xl font-bold py-4">Setup Your Profile</h3>
+                        <p class="leading-relaxed">Open the application, setup your profile, verify your KYC and you are ready to go.</p>
+                    </div>
+                
+
+               
+                    <div class="text-center cursor-pointer">
+                        <div class="relative bg-color-primary-dark inline-block py-3 px-6 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                            <p class="text-6xl">3</p>
+                        </div>
+                         
+                        <h3 class="text-xl font-bold py-4">Enjoy The Features</h3>
+                        <p class="leading-relaxed">Enjoy the different features such as expense tracking to maintain a organized Finance. </p>
+                    </div>
+                </div>   
+                
+            </div>
+
+        </section>
+
+
+
+        <section id="testimonial">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:wd-1/2">
+                    <h4 class="font-bold text-color-secondary mb-5">User Review</h4>
+                    <h1 class="title">What Clients Say After Using PaisaTiram</h1>
+                </div>
+
+                <div class="mt-8">
+                    <div class="flex items-center justify-center flex-wrap">
+                        <img src="Images/prabesh.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic " onclick="showReview()">
+                        <img src="Images/ajit.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="Images/samyog.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="Images/sakshyam.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        
+                    </div>
+
+
+                    <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]">
+                        <div class="user-text active-text" >
+                            <p class="md:text-2xl mb-6">"Paisa<span class="text-color-secondary">Tiram</span> app exceeds expectations! Seamless navigation, intuitive UI, and robust functionality make it a joy for users. As a full-stack developer, I appreciate its well-crafted design and efficiency."</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Prabesh Bastakoti</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+
+                        <div class="user-text" >
+                            <p class="md:text-2xl mb-6">"Paisa<span class="text-color-secondary">Tiram</span> app delivers an exceptional user experience! Its intuitive design and seamless navigation make managing finances a breeze. Kudos to the team for an outstanding UI/UX."</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Ajit Ghimire</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+
+                        <div class="user-text" >
+                            <p class="md:text-2xl mb-6">"Paisa<span class="text-color-secondary">Tiram</span> app has truly impressed me with its seamless user experience. As a backend developer, I appreciate its robust functionality and smooth integration. Kudos to the team!"</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Samyog Acharya</h4>
+                            <p>Backend Specialist</p>
+                        </div>
+
+                        <div class="user-text" >
+                            <p class="md:text-2xl mb-6">"Paisa<span class="text-color-secondary">Tiram</span> app has revolutionized my financial management. Its user-friendly interface simplifies transactions, budget tracking, and investment monitoring. A must-have for anyone seeking seamless financial control!"</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Sakshyam Puri</h4>
+                            <p>Finance Specialist</p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="bg-color-primary-light">
+          <div class="cointainer py-20">
+             <div class="text-center m-auto mb-20 md:wd-1/2">
+                  <h4 class="font-bold text-color-secondary mb-5">Pricing</h4>
+                 <h1 class="title">Get In Reasonable Price</h1>
+
+
+                  <div class="flex justify-center items-center gap-4 mt-5">
+                     <p>Bill Monthly</p>
+                     <label  class=" cursor-pointer relative inline-block w-20 h-8 rounded-full">
+                     <input type="checkbox" id="toggleBtn" class="peer opacity-0 w-0 h-0">
+                     <span class="absolute top-0 left-0 right-0 bottom-0 bg-color-primary-light border-2 border-solid border-color-gray rounded-full duration-300 before:content-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full before:bg-color-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-color-secondary "></span>
+                     </label>
+                     <p>Bill Anually</p>
+                    </div>
+                </div>
+
+                <div class="grid gap-5 mt-10  md:grid-cols-2 lg:grid-cols-3">
+                    <!-- card1 -->
+                    <div class="card relative h-auto w-auto">
+                        <!-- front side -->
+                        <div id="card_1_front" class="front px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                           <div class="relative ">
+                            <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                20 <span class="text-sm font-normal tracking-widest">/per Month</span>
+                            </p>
+                           </div>
+
+                           <div class="py-10">
+                            <h3 class="text-xl font-bold pb-3">Basic</h3>
+                            <p class="leading-relaxed">Effortlessly manage your expenses and cards with our Basic plan, providing essential tools for efficient financial control.</p>
+                           </div>
+
+                           <ul class="space-y-4 pb-10 pl-0 text-left">
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Expense Management</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Card Management</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                <span class="pl-4">Instant Statistics</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                <span class="pl-4">Bookmark Function</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                <span class="pl-4">Accounting System</span>
+                            </li>
+
+                           </ul>
+
+                           <button class="card_btn">Get Started</button>
+                        </div>
+
+                        <!-- back side -->
+                        <div id="card_1_back" class="back rotate-y-180 px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full absolute top-0 left-0">
+                            <div class="relative ">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                    120 <span class="text-sm font-normal tracking-widest">/per Month</span>
+                                </p>
+                               </div>
+    
+                               <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3">Basic</h3>
+                                <p class="leading-relaxed">Effortlessly manage your expenses and cards with our Basic plan, providing essential tools for efficient financial control.</p>
+                               </div>
+    
+                               <ul class="space-y-4 pb-10 pl-0 text-left">
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Expense Management</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Card Management</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                    <span class="pl-4">Instant Statistics</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                    <span class="pl-4">Bookmark Function</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                    <span class="pl-4">Accounting System</span>
+                                </li>
+    
+                               </ul>
+    
+                               <button class="card_btn">Get Started</button>
+                        </div>
+
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="card relative h-auto w-auto">
+                        <!-- front side -->
+                        <div id="card_2_front" class="front px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                           <div class="relative ">
+                            <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                50 <span class="text-sm font-normal tracking-widest">/per Month</span>
+                            </p>
+                           </div>
+
+                           <div class="py-10">
+                            <h3 class="text-xl font-bold pb-3">Standard</h3>
+                            <p class="leading-relaxed">Take your financial game to the next level with the Standard package, incorporating instant statistics and a convenient bookmark function along with core features</p>
+                           </div>
+
+                           <ul class="space-y-4 pb-10 pl-0 text-left">
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Expense Management</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Card Management</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Instant Statistics</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Bookmark Function</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                <span class="pl-4">Accounting System</span>
+                            </li>
+
+                           </ul>
+
+                           <button class="card_btn">Get Started</button>
+                        </div>
+
+                        <!-- back side -->
+                        <div id="card_2_back" class="back rotate-y-180 px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full absolute top-0 left-0">
+                            <div class="relative ">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                    150 <span class="text-sm font-normal tracking-widest">/per Month</span>
+                                </p>
+                               </div>
+    
+                               <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3">Standard</h3>
+                                <p class="leading-relaxed">Take your financial game to the next level with the Standard package, incorporating instant statistics and a convenient bookmark function along with core features</p>
+                               </div>
+    
+                               <ul class="space-y-4 pb-10 pl-0 text-left">
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Expense Management</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Card Management</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Instant Statistics</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Bookmark Function</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                    <span class="pl-4">Accounting System</span>
+                                </li>
+    
+                               </ul>
+    
+                               <button class="card_btn">Get Started</button>
+                        </div>
+
+                    </div>
+
+
+                    <!-- card3 -->
+                    <div class="card relative h-auto w-auto">
+                        <!-- front side -->
+                        <div id="card_3_front" class="front px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                           <div class="relative ">
+                            <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                100 <span class="text-sm font-normal tracking-widest">/per Month</span>
+                            </p>
+                           </div>
+
+                           <div class="py-10">
+                            <h3 class="text-xl font-bold pb-3">Premium</h3>
+                            <p class="leading-relaxed">Unlock the full potential of financial management with our Premium package, offering an all-inclusive experience that includes expense and card management, instant statistics, bookmark function, and a robust accounting system. Elevate your financial strategy with PaisaTiram Premium</p>
+                           </div>
+
+                           <ul class="space-y-4 pb-10 pl-0 text-left">
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Expense Management</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Card Management</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Instant Statistics</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Bookmark Function</span>
+                            </li>
+
+                            <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                <span class="pl-4">Accounting System</span>
+                            </li>
+
+                           </ul>
+
+                           <button class="card_btn">Get Started</button>
+                        </div>
+
+                        <!-- back side -->
+                        <div id="card_3_back" class="back rotate-y-180 px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full absolute top-0 left-0">
+                            <div class="relative ">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                    500 <span class="text-sm font-normal tracking-widest">/per Month</span>
+                                </p>
+                               </div>
+    
+                               <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3">Premium</h3>
+                                <p class="leading-relaxed">Unlock the full potential of financial management with our Premium package, offering an all-inclusive experience that includes expense and card management, instant statistics, bookmark function, and a robust accounting system. Elevate your financial strategy with PaisaTiram Premium</p>
+                               </div>
+    
+                               <ul class="space-y-4 pb-10 pl-0 text-left">
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Expense Management</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Card Management</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Instant Statistics</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Bookmark Function</span>
+                                </li>
+    
+                                <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                    <span class="pl-4">Accounting System</span>
+                                </li>
+    
+                               </ul>
+    
+                               <button class="card_btn">Get Started</button>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="blog">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:wd-1/2">
+                    <h4 class="font-bold text-color-secondary mb-5">Innovation And Quality Improvement</h4>
+                   <h1 class="title">Latest Updates, Solutions And Company News</h1>
+                </div>
+
+                <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3 px-10">
+                    <!-- card1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="Images/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p> 20 Jan 2024</p>
+                                <p>1 min Read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold text-color-secondary hover:underline hover:text-color-white">Digital Banking in Nepal!</a>
+    
+                            <p class="leading-relaxed my-5">"Digital Banking" is a relatively new idea in Nepal, it is developing quickly. People in Nepal are becoming more familiar with the digitalized banking procedure as a result of a rise in internet usage.....</p>
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondarytransition-all duration-300 ease-in-out ">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="Images/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p> 20 Jan 2024</p>
+                                <p>1 min Read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold text-color-secondary hover:underline hover:text-color-white">How to convert Private Company to Public Company in Nepal
+
+                            </a>
+    
+                            <p class="leading-relaxed my-5">At the time of the incorporation of a business entity, the applicants have options for selecting the types of Company, based on which the Companies Act.....</p>
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondarytransition-all duration-300 ease-in-out ">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="Images/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p> 20 Jan 2024</p>
+                                <p>1 min Read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold text-color-secondary hover:underline hover:text-color-white">Forfeiture of Shares in Nepal
+
+                            </a>
+    
+                            <p class="leading-relaxed my-5">Forfeiture of shares is a process where the company forfeits the shares of a shareholder who fails to pay the call money on shares issued within a certain.....</p>
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondarytransition-all duration-300 ease-in-out ">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+        </section>
+
+        <section id="download-app" class="bg-color-primary-light">
+            <div class="container h-[80vh] grid place-items-center">
+                <div class="text-center md:w-2/3 m-auto">
+                    <h1 class="title">Download App Now And Save Your Money</h1>
+                    <p class="leading-relaxed pt-5">Serving an impressive list of long-term money with experience and expertise in multiple industries.</p>
+
+                    <div class="flex flex-col  md:flex-row items-center justify-center gap-5 pt-10">
+                        <a href="#" class="bg-color-primary-dark h-16 w-44 grid place-items-center rounded-lg hover:opacity-70 ">
+                            <img src="Images/gp.jpg" alt="" >
+                        </a>
+                        <a href="#" class="bg-color-primary-dark h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                            <img src="Images/apple.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="contact">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:wd-1/2">
+                    <h4 class="font-bold text-color-secondary mb-5">Have A Question</h4>
+                   <h1 class="title">Get In Touch</h1>
+                </div>
+
+
+                <form >
+                    <div class="w-full m-auto text-center md:w-2/3">
+                        <div class="text-color-primary-dark grid gap-6 mb-6 md:grid-col-2">
+                            <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Name">
+                            <input type="email" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="E-Mail">
+                            <input type="tel" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Phone">
+                            <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Company">
+                        </div>
+
+                        <textarea  rows="4" class="text-color-primary-dark bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Message"></textarea>
+
+                        <button class="btn mt-10">Send Feedback</button>
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class=" bg-color-primary-dark relative">
+                <div class="container py-10 ">
+                    <div class="grid gap-10  md:grid-cols-3 pb-10" >
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">About App</h4>
+                            <p class="leading-relaxed">PaisaTiram is your go-to financial companion, offering a seamless and empowering experience in managing your assets. From intuitive expense tracking to a comprehensive finance snapshot, our app provides real-time insights at your fingertips. With 24x7 support, PaisaTiram ensures you're in control of your financial journey, making it the ultimate choice for those seeking simplicity, clarity, and excellence in asset management.</p>
+                            <div class="flex gap-5 items-center">
+                                <p>Follow Us</p>
+                                <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+            
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between md:justify-around ">
+                            <h4 class="font-bold text-lg inline-block">Quick Links</h4>
+                            <ul class="space-y-3 mt-5 ">
+                             <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Home</a></li>
+                             <li class="underline hover:no-underline hover:text-color-secondary"><a href="#features">Features</a></li>
+                             <li class="underline hover:no-underline hover:text-color-secondary"><a href="#testimonial">Testimonials</a></li>
+                             <li class="underline hover:no-underline hover:text-color-secondary"><a href="#pricing">Pricing</a></li>
+                             <li class="underline hover:no-underline hover:text-color-secondary"><a href="#blog">Blog</a></li>
+                             <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                         <div class="flex flex-col justify-between md:justify-around ">
+                                <h4 class="font-bold text-lg">Help</h4>
+                                <ul class="space-y-3 mt-5">
+                                 <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">About Us</a></li>
+                                 <li class="underline hover:no-underline hover:text-color-secondary"><a href="#features">Partners</a></li>
+                                 <li class="underline hover:no-underline hover:text-color-secondary"><a href="#testimonial">Career</a></li>
+                                 <li class="underline hover:no-underline hover:text-color-secondary"><a href="#pricing">Reviews</a></li>
+                                 <li class="underline hover:no-underline hover:text-color-secondary"><a href="#blog">Term & Conditions</a></li>
+                                 <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Help</a></li>
+                                </ul>
+                         </div>
+
+                        
+
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">NewsLetter</h4>
+                            <p class="leading-relaxed">Subscribe Us With Your E-mail</p>
+                            <div class="flex items-center" >
+                                <input type="text" class="w-3/4 text-color-gray bg-color-white py-2 lg:p-3 rounded-l-md focus:outline-none" placeholder="Enter your email">
+                                <button type="submit" class="bg-color-secondary px-4 py-2 lg:px-5 lg:py-3 rounded-r-md hover:opacity-90">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flex justify-center pt-10 border-t border-color-gray">
+                       
+                        <p>2024 &copy; Prabesh Bastakoti. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
