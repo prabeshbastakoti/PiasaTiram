@@ -13,7 +13,7 @@ Welcome to Paisa Tiram, your go-to finance managing app! This repository contain
 *Explore the Features section, highlighting the key functionalities of Paisa Tiram.*
 
 ### User Reviews
-![User Reviews](/Images/User%20Reviews.png)
+![User Reviews](/Images/Reviews.png)
 *See what users are saying in the User Reviews section, providing valuable feedback on their experience with the app.*
 
 ### Pricing 
